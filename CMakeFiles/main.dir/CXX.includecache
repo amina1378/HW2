@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/usr/src/app/src/main.cpp
+iostream
+-
+gtest/gtest.h
+-
+trie.h
+/usr/src/app/src/trie.h
+
+include/trie.h
+vector
+-
+iostream
+-
+
